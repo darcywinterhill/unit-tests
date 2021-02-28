@@ -1,16 +1,18 @@
+//alla funkar
+
 export const firstLast = (items) => {
 
-  if (items.length <= 2) { //verkar funka
+  if (items.length === 2) {
   return `First: ${items[0]}, Last: ${items[1]}`
   
-} else if (items.length > 2) { //verkar funka
+} else if (items.length > 2) {
   return `First: ${items[0]}, Last: ${items[items.length -1]}`
 
 
-} else if (items.length === 1) { //funkar inte
+} else if (items.length === 1) {
   return `Only item: ${items[0]}`
 
-} else if (items.length === 0) { //funkar inte
+} else if (items.length === 0) {
   return `No items!`
 }
 }

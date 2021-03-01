@@ -1,4 +1,4 @@
-//alla funkar
+//funkar
 
 export const firstLast = (items) => {
 

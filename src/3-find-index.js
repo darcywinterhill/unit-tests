@@ -1,4 +1,4 @@
-//alla funkar
+//funkar
 export const findIndex = (array, value) => {
   if (value === 'Apple') {
   return array.indexOf(value)

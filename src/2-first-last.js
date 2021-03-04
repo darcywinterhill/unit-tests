@@ -1,5 +1,3 @@
-//funkar
-
 export const firstLast = (items) => {
 
   if (items.length === 2) {

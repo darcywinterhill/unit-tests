@@ -1,4 +1,3 @@
-//alla funkar - ska den vara så här?
 export const angleCalculator = (turns) => {
   if (turns === 0){
   return 0
